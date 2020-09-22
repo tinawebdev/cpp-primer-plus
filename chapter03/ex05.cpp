@@ -2,7 +2,6 @@
 
 int main()
 {
-
     std::cout << "Enter the world's population:" << std::endl;
     unsigned long long worldPopulation;
     std::cin >> worldPopulation;
