@@ -5,9 +5,9 @@
 int main()
 {
     using namespace std;
+
     array<string, 12> months = {"January", "February", "March", "April", "May",
         "June", "July", "August", "September", "October", "November", "December"};
-
     array<int, 12> monthSales;
     int totalSales = 0;
 
@@ -18,8 +18,7 @@ int main()
         totalSales += monthSales[i];
     }
 
-    cout << endl
-             << "Total sales: " << totalSales << " books.";
+    cout << endl << "Total sales: " << totalSales << " books.";
 
     return 0;
 }
