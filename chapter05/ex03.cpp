@@ -2,15 +2,15 @@
 
 int main()
 {
-	using namespace std;
-	int num, sum = 0;
+    using namespace std;
+    int num, sum = 0;
 
-	do {
-		cout << "Enter a number (0 to stop): ";
-		cin >> num;
-		sum += num;		
-		cout << "Result: " << sum << endl;
-	} while (num);	
+    do {
+        cout << "Enter a number (0 to stop): ";
+        cin >> num;
+        sum += num;		
+        cout << "Result: " << sum << endl;
+    } while (num);	
 
-	return 0;
+    return 0;
 }
