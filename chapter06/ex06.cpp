@@ -40,7 +40,7 @@ int main()
     }
 
     if (noGrandPatrons == 0) 
-        std::cout << "None.\n";
+        std::cout << "none\n";
 
     std::cout << "\nPatrons\n";
     for (int i = 0; i < records; i++)
