@@ -66,9 +66,9 @@ void show_array(const double *ar, double *end)
     } 
 }
 
-void revalue(double f, double *ar, double *end) 
+void revalue(double r, double *ar, double *end) 
 { 
     double *temp = ar;
     for (int i = 0; temp < end; i++, temp++)
-        *temp *= f;
+        *temp *= r;
 }
