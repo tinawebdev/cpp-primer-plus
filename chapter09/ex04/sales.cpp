@@ -22,7 +22,7 @@ namespace SALES
 
     s.average = total / n;
     s.max = max;
-    s.min = min;		
+    s.min = min;
   }
   
   void setSales(Sales & s)
@@ -31,7 +31,7 @@ namespace SALES
     double min;
     double total = 0;
 
-    std::cout << "Enter sales for quater 1: ";
+    std::cout << "Enter sales for quarter 1: ";
     std::cin >> s.sales[0];
     max = s.sales[0];
     min = s.sales[0];
@@ -39,7 +39,7 @@ namespace SALES
 
     for (int i = 1; i < QUARTERS; i++)
     {
-      std::cout << "Enter sales for quater " << i + 1 <<  ": ";
+      std::cout << "Enter sales for quarter " << i + 1 <<  ": ";
       std::cin >> s.sales[i];
       total += s.sales[i];
 
@@ -49,7 +49,7 @@ namespace SALES
 
     s.average = total / QUARTERS;
     s.max = max;
-    s.min = min;		
+    s.min = min;
   }
   
   void showSales(const Sales & s)
@@ -61,6 +61,6 @@ namespace SALES
 
     std::cout << "Maximum sales: " << s.max << std::endl;
     std::cout << "Minimum sales: " << s.min << std::endl;
-    std::cout << "Average sales: " << s.average << std::endl;		
+    std::cout << "Average sales: " << s.average << std::endl;
   }
 }
