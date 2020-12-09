@@ -18,8 +18,8 @@ int main()
   std::cout << "\nEnter 3 values: " << std::endl;
   for (int i = 0; i < 3; i++)
   {
-	std::cin >> input;
-	list.push(input);
+    std::cin >> input;
+    list.push(input);
   }
 
   std::cout << "Is list empty? " << list.isEmpty() << std::endl;
