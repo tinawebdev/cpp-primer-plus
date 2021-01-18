@@ -152,4 +152,3 @@ istream& operator>>(istream& is, String& st)
     continue;
   return is;
 }
-
