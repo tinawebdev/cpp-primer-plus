@@ -1,9 +1,16 @@
 #include <iostream>
 
-template <typename T> void ShowArray(T arr[], int n);
-template <typename T> void ShowArray(T * arr[], int n);
-template <typename T> double SumArray(T arr[], int n);
-template <typename T> double SumArray(T * arr[], int n);
+template <typename T>
+void ShowArray(T arr[], int n);
+
+template <typename T>
+void ShowArray(T * arr[], int n);
+
+template <typename T>
+double SumArray(T arr[], int n);
+
+template <typename T>
+double SumArray(T * arr[], int n);
 
 struct debts
 {
@@ -39,7 +46,8 @@ int main()
     return 0;
 }
 
-template <typename T> void ShowArray(T arr[], int n)
+template <typename T>
+void ShowArray(T arr[], int n)
 {
     using namespace std;
     cout << "template A\n";
@@ -48,7 +56,8 @@ template <typename T> void ShowArray(T arr[], int n)
     cout << endl;
 }
 
-template <typename T> void ShowArray(T * arr[], int n)
+template <typename T>
+void ShowArray(T * arr[], int n)
 {
     using namespace std;
     cout << "template B\n";
@@ -57,7 +66,8 @@ template <typename T> void ShowArray(T * arr[], int n)
     cout << endl;
 }
 
-template <typename T> double SumArray(T arr[], int n)
+template <typename T>
+double SumArray(T arr[], int n)
 {
     using namespace std;
     double sum = 0;
@@ -66,7 +76,8 @@ template <typename T> double SumArray(T arr[], int n)
     return sum;
 }
 
-template <typename T> double SumArray(T * arr[], int n)
+template <typename T>
+double SumArray(T * arr[], int n)
 {
     using namespace std;
     double sum = 0;

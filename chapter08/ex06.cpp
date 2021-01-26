@@ -1,8 +1,11 @@
 #include <iostream>
 #include <cstring>
 
-template <typename T> T maxn(T arr[], int elements);
-template <> const char * maxn(const char * arr[], int elements);
+template <typename T>
+T maxn(T arr[], int elements);
+
+template <>
+const char * maxn(const char * arr[], int elements);
 
 int main()
 {
@@ -24,7 +27,8 @@ int main()
     return 0;
 }
 
-template <typename T> T maxn(T arr[], int elements)
+template <typename T>
+T maxn(T arr[], int elements)
 {
     T largest = arr[0];
     for (int i = 1; i < elements; i++)
@@ -35,7 +39,8 @@ template <typename T> T maxn(T arr[], int elements)
     return largest;
 }
 
-template <> const char * maxn(const char * arr[], int elements)
+template <>
+const char * maxn(const char * arr[], int elements)
 {
     const char * longest = arr[0];
     for (int i = 1; i < elements; i++)

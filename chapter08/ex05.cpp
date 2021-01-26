@@ -2,7 +2,8 @@
 
 const int ArSize = 5;
 
-template <typename T> T max5(T arr[]);
+template <typename T> 
+T max5(T arr[]);
 
 int main() 
 { 
@@ -12,7 +13,8 @@ int main()
     std::cout << max5(arrDouble) << std::endl;
 }
 
-template <typename T> T max5(T arr[])
+template <typename T>
+T max5(T arr[])
 {
     T largest = arr[0];
     for (int i = 1; i < ArSize; i++)
