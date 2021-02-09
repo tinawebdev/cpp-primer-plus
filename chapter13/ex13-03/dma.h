@@ -1,5 +1,5 @@
-#ifndef DMA_H
-#define DMA_H
+#ifndef DMA_H_
+#define DMA_H_
 #include <iostream>
 
 class abcDMA
