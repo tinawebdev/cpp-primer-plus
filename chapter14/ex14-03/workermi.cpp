@@ -51,7 +51,6 @@ void Waiter::Show() const
   Data();
 }
 
-
 // Singer methods
 const char* Singer::pv[Singer::Vtypes] = { "other", "alto", "contralto", "soprano", "bass", "baritone", "tenor" };
 
@@ -96,7 +95,6 @@ void Singer::Show() const
   Worker::Data();
   Data();
 }
-
 
 // SingingWaiter methods
 void SingingWaiter::Data() const
