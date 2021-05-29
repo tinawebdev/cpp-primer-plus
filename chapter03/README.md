@@ -1,4 +1,4 @@
-## Chapter 2 "Dealing with Data"
+## Chapter 3 "Dealing with Data"
 ### Programming Exercises
 
 1. Write a short program that asks for your height in integer inches and then converts
