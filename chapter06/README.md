@@ -16,7 +16,7 @@ other than one of the four valid choices, the program should prompt the user to
 enter a valid response until the user complies. Then the program should use a
 switch to select a simple action based on the user’s selection. A program run could
 look something like this:
-    ```
+    ```console
     Please enter one of the following choices:
     c) carnivore p) pianist
     t) tree g) game
@@ -33,10 +33,10 @@ or by a member’s preference. Base the program on the following structure:
     ```cpp
     // Benevolent Order of Programmers name structure
     struct bop {
-    char fullname[strsize]; // real name
-    char title[strsize]; // job title
-    char bopname[strsize]; // secret BOP name
-    int preference; // 0 = fullname, 1 = title, 2 = bopname
+        char fullname[strsize]; // real name
+        char title[strsize]; // job title
+        char bopname[strsize]; // secret BOP name
+        int preference; // 0 = fullname, 1 = title, 2 = bopname
     };
     ```
     In the program, create a small array of such structures and initialize it to suitable
@@ -50,10 +50,10 @@ or by a member’s preference. Base the program on the following structure:
     means display the member corresponding to the preference number. For instance, if
     preference is 1, choice d would display the programmer’s job title. A sample run
     may look something like the following:
-    ```
+    ```console
     Benevolent Order of Programmers Report
-    a. display by name b. display by title
-    c. display by bopname d. display by preference
+    a. display by name     b. display by title
+    c. display by bopname  d. display by preference
     q. quit
     Enter your choice: a
     Wimp Macho
@@ -103,7 +103,7 @@ One approach is to use `isalpha()` to discriminate between words beginning with
 letters and those that don’t and then use an if or switch statement to further 
 identify those passing the `isalpha()` test that begin with vowels. A sample run might
 look like this:
-    ```
+    ```console
     Enter words (q to quit):
     The 12 awesome oxen ambled
     quietly across 15 meters of lawn. q
@@ -119,7 +119,7 @@ the file, and reports the number of characters in the file.
 item in the file should be the number of contributors, and the rest of the file should
 consist of pairs of lines, with the first line of each pair being a contributor’s name
 and the second line being a contribution. That is, the file should look like this:
-    ```
+    ```console
     4
     Sam Stone
     2000
