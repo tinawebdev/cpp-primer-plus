@@ -65,7 +65,7 @@
     }
     ```
 
-2. Do Programming Exercise 1 but use dynamic memory allocation instead of fixedsize arrays 
+2. Do *Programming Exercise 1* but use dynamic memory allocation instead of fixedsize arrays 
 for the various strings tracked by the two classes.
 
 3. Revise the` baseDMA-lacksDMA-hasDMA` class hierarchy so that all three classes are
@@ -134,13 +134,13 @@ describe it, the BOP Portmaster has devised a `Port` class, as declared here:
 
     You get the job of completing the `VintagePort` work.
     
-    a. Your first task is to re-create the `Port` method definitions because the former
+    **a.** Your first task is to re-create the `Port` method definitions because the former
     Portmaster immolated his upon being relieved.
 
-    b. Your second task is to explain why certain methods are redefined and others
+    **b.** Your second task is to explain why certain methods are redefined and others
     are not.
 
-    c. Your third task is to explain why `operator=()` and `operator<<()` are not
+    **c.** Your third task is to explain why `operator=()` and `operator<<()` are not
     virtual.
 
-    d. Your fourth task is to provide definitions for the `VintagePort` methods
+    **d.** Your fourth task is to provide definitions for the `VintagePort` methods
