@@ -21,10 +21,10 @@ Also the program should use a function that takes a reference to a `CandyBar` as
 argument and displays the contents of the structure. Use `const` where appropriate.
 
 3. Write a function that takes a reference to a string object as its parameter and that
-converts the contents of the string to uppercase. Use the toupper() function
+converts the contents of the string to uppercase. Use the `toupper()` function
 described in *Table 6.4 of Chapter 6*. Write a program that uses a loop which allows
 you to test the function with different input. A sample run might look like this:
-    ```console
+    ```makefile
     Enter a string (q to quit): go away
     GO AWAY
     Next string (q to quit): good grief!
