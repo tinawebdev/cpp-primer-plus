@@ -35,7 +35,7 @@ and write a short program that illustrates all the features.
     one.FormalShow();
     // etc. for two and three
     ```
-3. Do *Programming Exercise 1* from [Chapter 9](./chapter09#programming-exercises/) but replace the code shown there with
+3. Do *Programming Exercise 1* from [Chapter 9](/chapter09#programming-exercises/) but replace the code shown there with
 an appropriate golf class declaration. Replace `setgolf(golf &, const char*, int)`
 with a constructor with the appropriate argument for providing initial values.
 Retain the interactive version of `setgolf()` but implement it by using the constructor. 
@@ -43,7 +43,7 @@ Retain the interactive version of `setgolf()` but implement it by using the cons
 the constructor to create a temporary object, and assign the temporary object to the
 invoking object, which is `*this`.)
 
-4. Do *Programming Exercise 4* from [Chapter 9](./chapter09#programming-exercises/) but convert the Sales structure and
+4. Do *Programming Exercise 4* from [Chapter 9](/chapter09#programming-exercises/) but convert the Sales structure and
 its associated functions to a class and its methods. Replace the `setSales(Sales &, double [], int)`
 function with a constructor. Implement the interactive `setSales(Sales &)` method by using the 
 constructor. Keep the class within the namespace `SALES`.
@@ -121,7 +121,7 @@ constructor. Keep the class within the namespace `SALES`.
     the data type, as a linked list. But the public interface should not depend on your
     choice. That is, the public interface should not have array indices, pointers to nodes,
     and so on. It should be expressed in the general concepts of creating a list, adding
-    an item to the list,and so on. The usual way to handle visiting each item and performing 
+    an item to the list, and so on. The usual way to handle visiting each item and performing 
     an action is to use a function that takes a function pointer as an argument:
     ```cpp
     void visit(void (*pf)(Item &));
