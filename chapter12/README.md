@@ -80,7 +80,7 @@ doing the following:
     ```
     
     Your output should look like this sample run:
-    ```
+    ```makefile
     Please enter your name: Fretta Farbo
     My name is Fretta Farbo.
     The string
@@ -93,7 +93,7 @@ doing the following:
     Bye
     ```
     
-3. Rewrite the `Stock` class, as described in *Listings 10.7 and 10.8* in [Chapter 10](./chapter10#programming-exercises/) so
+3. Rewrite the `Stock` class, as described in *Listings 10.7 and 10.8* in [Chapter 10](/chapter10#programming-exercises/) so
 that it uses dynamically allocated memory directly instead of using `string` class
 objects to hold the stock names. Also replace the `show()` member function with an
 overloaded `operator<<()` definition.Test the new definition program in *Listing
