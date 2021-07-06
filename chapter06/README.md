@@ -16,7 +16,7 @@ other than one of the four valid choices, the program should prompt the user to
 enter a valid response until the user complies. Then the program should use a
 switch to select a simple action based on the user’s selection. A program run could
 look something like this:
-    ```console
+    ```makefile
     Please enter one of the following choices:
     c) carnivore p) pianist
     t) tree g) game
@@ -41,7 +41,7 @@ or by a member’s preference. Base the program on the following structure:
     ```
     In the program, create a small array of such structures and initialize it to suitable
     values. Have the program run a loop that lets the user select from different alternatives:
-    ```
+    ```makefile
     a. display by name     b. display by title
     c. display by bopname  d. display by preference
     q. quit
@@ -50,7 +50,7 @@ or by a member’s preference. Base the program on the following structure:
     means display the member corresponding to the preference number. For instance, if
     preference is 1, choice d would display the programmer’s job title. A sample run
     may look something like the following:
-    ```console
+    ```makefile
     Benevolent Order of Programmers Report
     a. display by name     b. display by title
     c. display by bopname  d. display by preference
@@ -72,7 +72,7 @@ or by a member’s preference. Base the program on the following structure:
     ```
 
 5. The Kingdom of Neutronia, where the unit of currency is the tvarp, has the following income tax code:
-    ```
+    ```makefile
     First 5,000 tvarps: 0% tax
     Next 10,000 tvarps: 10% tax
     Next 20,000 tvarps: 15% tax
@@ -103,7 +103,7 @@ One approach is to use `isalpha()` to discriminate between words beginning with
 letters and those that don’t and then use an if or switch statement to further 
 identify those passing the `isalpha()` test that begin with vowels. A sample run might
 look like this:
-    ```console
+    ```makefile
     Enter words (q to quit):
     The 12 awesome oxen ambled
     quietly across 15 meters of lawn. q
@@ -115,11 +115,11 @@ look like this:
 8. Write a program that opens a text file, reads it character-by-character to the end of
 the file, and reports the number of characters in the file.
 
-9. Do Programming Exercise 6 but modify it to get information from a file. The first
+9. Do *Programming Exercise 6* but modify it to get information from a file. The first
 item in the file should be the number of contributors, and the rest of the file should
 consist of pairs of lines, with the first line of each pair being a contributor’s name
 and the second line being a contribution. That is, the file should look like this:
-    ```console
+    ```makefile
     4
     Sam Stone
     2000
