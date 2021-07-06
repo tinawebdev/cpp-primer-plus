@@ -5,7 +5,7 @@
 into a file. Label each position with the step number. Also have the program write
 the initial conditions (target distance and step size) and the summarized results to
 the file. The file contents might look like this:
-    ```
+    ```makefile
     Target Distance: 100, Step Size: 20
     0: (x,y) = (0, 0)
     1: (x,y) = (-11.4715, 16.383)
@@ -90,11 +90,11 @@ operations:
     ```
     
     Note that you have to overload the `<<` and `>>` operators. Standard C++ already has
-    complex support—rather more extensive than in this example—in a `complex`
+    complex support - rather more extensive than in this example - in a `complex`
     header file, so use `complex0.h` to avoid conflicts. Use const whenever warranted.
     
     Here is a sample run of the program:
-    ```
+    ```makefile
     Enter a complex number (q to quit):
     real: 10
     imaginary: 12
