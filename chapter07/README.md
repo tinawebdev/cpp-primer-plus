@@ -165,7 +165,7 @@ function:
     For each pair, use `calculate()` to invoke `add()` and at least one other function. 
     If you are feeling adventurous, try creating an array of pointers to `add()`-style
     functions and use a loop to successively apply `calculate()` to a series of functions
-    by using these pointers. Hint: Here’s how to declare such an array of three pointers:
+    by using these pointers. **Hint:** Here’s how to declare such an array of three pointers:
     ```cpp
     double (*pf[3])(double, double);
     ```
