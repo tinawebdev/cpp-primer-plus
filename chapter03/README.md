@@ -18,7 +18,7 @@ meters. Use symbolic constants to represent the various conversion factors.
 There are 60 seconds of arc to a minute and 60 minutes of arc to a degree; represent these values with symbolic constants.
 You should use a separate variable for each input value.
 A sample run should look like this:
-    ```c
+    ```makefile
     Enter a latitude in degrees, minutes, and seconds:
     First, enter the degrees: 37
     Next, enter the minutes of arc: 51
@@ -31,7 +31,7 @@ value (use type long, or, if available, long long) and that then displays the eq
 hours, minutes,and seconds. Use symbolic constants to represent
 the number of hours in the day, the number of minutes in an hour, and the number
 of seconds in a minute. The output should look like this:
-    ```c
+    ```makefile
     Enter the number of seconds: 31600000
     31600000 seconds = 365 days, 17 hours, 46 minutes, 40 seconds
     ```
@@ -41,7 +41,7 @@ the current population of the U.S. (or of some other nation of your choice). Sto
 the information in variables of type long long. 
 Have the program display the percent that the U.S. (or other nation’s) population is of the world’s population.
 The output should look something like this:
-    ```
+    ```makefile
     Enter the world's population: 6898758899
     Enter the population of the US: 310783781
     The population of the US is 4.50492% of the world population.
