@@ -2,7 +2,7 @@
 ### Programming Exercises
 
 1. Write a C++ program that requests and displays information as shown in the following example of output:
-    ```
+    ```makefile
     What is your first name? Betty Sue
     What is your last name? Yewe
     What letter grade do you deserve? B
@@ -16,7 +16,7 @@
     one letter. Assume that the user requests an A, a B, or a C so that you don’t have to
     worry about the gap between a D and an F.
     
-2. Rewrite Listing 4.4, using the C++ `string` class instead of `char arrays`.
+2. Rewrite *Listing 4.4*, using the C++ `string` class instead of `char arrays`.
     <details>
       <summary>Listing 4.4 (instr2.cpp)</summary>
 
@@ -45,7 +45,7 @@
 name, and that then constructs, stores, and displays a third string, consisting of the
 user’s last name followed by a comma, a space, and first name. Use `char arrays` and
 functions from the `cstring` header file. A sample run could look like this:
-    ```cpp
+    ```makefile
     Enter your first name: Flip
     Enter your last name: Fleming
     Here’s the information in a single string: Fleming, Flip
@@ -55,7 +55,7 @@ functions from the `cstring` header file. A sample run could look like this:
 name, and that then constructs, stores, and displays a third string consisting of the
 user’s last name followed by a comma, a space, and first name. Use `string` objects
 and methods from the `string` header file. A sample run could look like this:
-    ```cpp
+    ```makefile
     Enter your first name: Flip
     Enter your last name: Fleming
     Here’s the information in a single string: Fleming, Flip
@@ -69,8 +69,8 @@ and creates a `CandyBar` variable called `snack`, initializing its members to `"
 Munch"`, `2.3`, and `350`, respectively. The initialization should be part of the declaration for `snack`. 
 Finally, the program should display the contents of the snack variable.
 
-6. The `CandyBar` structure contains three members,as described in Programming
-Exercise 5. Write a program that creates an array of three `CandyBar` structures, initializes 
+6. The `CandyBar` structure contains three members, as described in *Programming
+Exercise 5*. Write a program that creates an array of three `CandyBar` structures, initializes 
 them to values of your choice, and then displays the contents of each structure.
 
 7. William Wingate runs a pizza-analysis service. For each pizza, he needs to record
@@ -84,11 +84,11 @@ the following information:
     preceding items of information, and then the program should display that information. 
     Use `cin` (or its methods) and `cout`.
 
-8. Do Programming Exercise 7 but use `new` to allocate a structure instead of declaring
+8. Do *Programming Exercise 7* but use `new` to allocate a structure instead of declaring
 a structure variable. Also have the program request the pizza diameter before it
 requests the pizza company name.
 
-9. Do Programming Exercise 6, but instead of declaring an array of three `CandyBar`
+9. Do *Programming Exercise 6*, but instead of declaring an array of three `CandyBar`
 structures, use `new` to allocate the array dynamically.
 
 10. Write a program that requests the user to enter three times for the 40-yd dash (or
