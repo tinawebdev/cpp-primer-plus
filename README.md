@@ -19,7 +19,7 @@ Each chapter has separate folder:
 - [x] [Chapter 12. Classes and Dynamic Memory Allocation](/chapter12#programming-exercises/)
 - [x] [Chapter 13. Class Inheritance](/chapter13#programming-exercises/)
 - [x] [Chapter 14. Reusing Code in C++](/chapter14#programming-exercises/)
-- [ ] [Chapter 15. Friends, Exceptions, and More](/chapter15#programming-exercises/)
+- [x] [Chapter 15. Friends, Exceptions, and More](/chapter15#programming-exercises/)
 - [ ] Chapter 16. The string Class and the Standard Template Library
 - [ ] Chapter 17. Input, Output, and Files
 - [ ] Chapter 18. Visiting with the New C++ Standard
