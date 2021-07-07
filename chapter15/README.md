@@ -19,3 +19,10 @@
 `logic_error` class provided by the `<stdexcept>` header file. Have each `what()`
 method report the function name and the nature of the problem. The exception
 objects need not hold the bad values; they should just support the `what()` method.
+
+3. This exercise is the same as *Programming Exercise 2*, except that the exceptions
+should be derived from a base class (itself derived from `logic_error`) that stores the
+two argument values, the exceptions should have a method that reports these values
+as well as the function name, and a single `catch` block that catches the base-class
+exemption should be used for both exceptions, with either exception causing the
+loop to terminate.
