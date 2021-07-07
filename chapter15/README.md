@@ -26,3 +26,8 @@ two argument values, the exceptions should have a method that reports these valu
 as well as the function name, and a single `catch` block that catches the base-class
 exemption should be used for both exceptions, with either exception causing the
 loop to terminate.
+
+4. *Listing 15.16* uses two catch blocks after each try block so that the `nbad_index`
+exception leads to the `label_val()` method being invoked. Modify the program so
+that it uses a single catch block after each `try` block and uses RTTI to handle
+invoking `label_val()` only when appropriate.
